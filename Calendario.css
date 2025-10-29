@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+  body{
+    align-items: center;
+    min-height: 95vh;
+    background: url('Estudando.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    table, th, td {
+        border:1px solid black;
+        border-collapse: collapse;
+}
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  tr:nth-child {
+    background-color: white;
+  }
+
+    th {
+    background-color: #a84caf;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+   td {
+    height: 780px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+    a {
+  border: 3px solid black;
+  background-color: pink;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position:absolute;
+  bottom: relative;
+  right: 5%;
+}
+
+a:hover{
+  background-color: green;
+}
