@@ -13,14 +13,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('Estudando.png') no-repeat;
+    background: url('Estudando.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .wrapper{
     width: 550px;
-    background: transparent;
+    background: rgba(0, 255, 255, 0.2);
     border: 2px solid rgba(0, 0, 0, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0,0,0,.2);
@@ -70,6 +70,32 @@ body{
     transform: translateY(-50%);
     font-size: 20px;
 }
+
+.checkboxes {
+    position: relative;
+    margin: 20px 10px;
+
+    /* Adicionado */
+    display: flex;
+    gap: 30px; /* espaço entre os itens */
+    align-items: center;
+}
+  
+.checkboxes .list-group-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    gap: 10px; /* espaço entre o checkbox e o texto */
+    margin: 0; /* remove margens indesejadas */
+}
+
+.form-check-input {
+    width: 25px;
+    height: 25px;
+}
+
+
 
 .wrapper .btn{
     width: 100%;

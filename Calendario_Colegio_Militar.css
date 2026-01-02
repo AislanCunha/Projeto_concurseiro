@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+/* Configuração Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    /* Espaço para a navbar fixa (ajuste conforme a altura da sua nav) */
+    padding-top: 70px; 
+    background: url('Estudando.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Garante que a navbar esteja sempre à frente */
+.navbar {
+    z-index: 1050 !important;
+    text-align: right;
+}
+
+/* Sua Tabela */
+table {
+    width: 90%; /* Deixa uma margem nas laterais */
+    max-width: 2000px; /* Evita que fique larga demais em monitores grandes */
+    margin: 20px auto; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    background-color: white; 
+}
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: white; 
+  }
+  tr:nth-child(odd) { 
+    background-color: #f9f9f9; 
+  }
+  tr:hover td { 
+    background-color: #e9e9e9;
+  }
+
+  th {
+    background-color: rgba(0, 255, 255, 1);
+    color: black;
+    text-align: right;
+    font-size: 20px; 
+    padding: 15px; 
+  }
+
+  td {
+    height: 600px;
+    color: black;
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 16px; 
+    padding: 10px;
+  }
+
+  td h4{
+    font-size: 30px;
+  }
+
+  .button {
+    margin-top: 20px; 
+  }
+  
+  .btn { 
+    display: inline-block; 
+    padding: 10px 30px; 
+    background-color: blue; 
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3); 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: white; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+    background-image: none; 
+  }
+
+  .btn:hover{ 
+    background-color: green;
+  }
