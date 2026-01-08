@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+/* Seu reset e configurações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* Espaço para a navbar fixa (ajuste conforme a altura da sua nav) */
+    padding-top: 70px; 
+    background: url('Estudando.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Garante que a navbar esteja sempre à frente */
+.navbar {
+    z-index: 1050 !important;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 2500px;
+    background: rgb(248, 249, 249);
+    border: 2px solid rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.wrapper p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+  .wrapper p a {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      font-weight: bold;
+  }
+
+  .wrapper p a:hover {
+      color: #0056b3;
+      text-decoration: underline;
+  }
